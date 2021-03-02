@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conde_code_contents",
+  "info": {
+    "name": "conde-code-content"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "heading": {
+      "type": "richtext"
+    }
+  }
+}

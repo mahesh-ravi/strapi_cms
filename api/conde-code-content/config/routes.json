@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/teams",
-      "handler": "team.find",
+      "path": "/conde-code-contents",
+      "handler": "conde-code-content.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/teams/count",
-      "handler": "team.count",
+      "path": "/conde-code-contents/count",
+      "handler": "conde-code-content.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/teams/:id",
-      "handler": "team.findOne",
+      "path": "/conde-code-contents/:id",
+      "handler": "conde-code-content.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/teams",
-      "handler": "team.create",
+      "path": "/conde-code-contents",
+      "handler": "conde-code-content.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/teams/:id",
-      "handler": "team.update",
+      "path": "/conde-code-contents/:id",
+      "handler": "conde-code-content.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/teams/:id",
-      "handler": "team.delete",
+      "path": "/conde-code-contents/:id",
+      "handler": "conde-code-content.delete",
       "config": {
         "policies": []
       }
